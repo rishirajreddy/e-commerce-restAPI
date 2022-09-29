@@ -7,7 +7,7 @@ const connectDB = () => {
     mongoose.connect(process.env.MONGO_URL, {
         useNewUrlParser : true, useUnifiedTopology: true
     });
-    console.log("COnnected to mongodb");
+    console.log("Connected to mongodb");
 }
 
 module.exports  = connectDB;

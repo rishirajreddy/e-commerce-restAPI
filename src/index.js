@@ -15,6 +15,4 @@ app.use("/auth", userRoutes);
 app.use("/products", prodRoutes);
 app.use("/orders", orderRoutes);
 
-app.listen(3000, () => {
-    console.log("Listening..");
-})
+module.exports = app;
